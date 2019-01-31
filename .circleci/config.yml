@@ -24,4 +24,3 @@ jobs:
       - run: touch database/database.sqlite
       - run: php artisan migrate
       - run: ./vendor/bin/phpunit
-        
